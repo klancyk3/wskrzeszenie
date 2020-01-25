@@ -11,7 +11,6 @@ namespace Crawler
     {
         public string Url { get; set; }
         public string Content { get; set; }
-        public string Content2 { get; set; }
         public WebBrowser Browser { get; set; }
 
         public void Download() {

@@ -120,5 +120,15 @@ namespace Crawler
         {
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            var siteGot = @"http://ktg.hg.pl/komisja-tg/got/got.html";
+
+            var siteDownloader = new SiteDownloader { Url = siteGot };
+            siteDownloader.Download();
+
+
+        }
     }
 }
